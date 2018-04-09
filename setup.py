@@ -6,5 +6,6 @@ setup(name='logging_tools',
       url='http://github.com/sousasan/logging_tools',
       author='Data Team',
       author_email='data@quandl.com',
-      packages=['logging_tools'],
+      packages=['logging_tools','db_connections'],
+      install_requires=['pandas','logging'],
       zip_safe=False)
