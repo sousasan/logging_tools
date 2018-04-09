@@ -6,5 +6,5 @@ setup(name='logging_tools',
       url='http://github.com/sousasan/logging_tools',
       author='Data Team',
       author_email='data@quandl.com',
-      packages=['logging'],
+      packages=['logging_tools'],
       zip_safe=False)
