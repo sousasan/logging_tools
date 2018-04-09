@@ -48,3 +48,8 @@ def close_log(log,bucket,system,log_filename):
 	run_date = datetime.utcnow().strftime("%Y%m%d")
 	filename = log_filename.split('/')[-1]
 	s3cp(log_filename,bucket,'{0}/logs/{1}/{2}'.format(system, run_date, filename))
+	
+	
+def say_hello():
+	print "hello!!!"
+
