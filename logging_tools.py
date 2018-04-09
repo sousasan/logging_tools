@@ -51,5 +51,5 @@ def close_log(log,bucket,system,log_filename):
 	
 	
 def say_hello():
-	print "hello!!!"
+	raise Exception("hello!")
 
