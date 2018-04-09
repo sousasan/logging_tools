@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='logging_tools',
-      version='0.1',
+      version='0.2',
       description='Tools for logging',
       url='http://github.com/sousasan/logging_tools',
       author='Data Team',
